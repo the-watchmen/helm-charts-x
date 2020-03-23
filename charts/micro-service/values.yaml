@@ -1,0 +1,10 @@
+replicas: 1
+image:
+  pullPolicy: IfNotPresent
+resources:
+  requests:
+    cpu: 200m
+    memory: 1024Mi
+  limits:
+    cpu: 1000m
+    memory: 4096Mi

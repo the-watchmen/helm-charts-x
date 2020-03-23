@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  micro-service:
+  - apiVersion: v1
+    created: "2020-03-22T18:18:52.194454-04:00"
+    digest: a1f4f8f7cfeb567ddf075f4b969db04264ba6c33dad0e0720b7d8fa976fbd185
+    name: micro-service
+    urls:
+    - micro-service-1.0.0.tgz
+    version: 1.0.0
+  tls:
+  - apiVersion: v1
+    created: "2020-03-22T18:18:52.194805-04:00"
+    digest: f48e88a179bb470fd67295e318dcc35d36b4105089f762b8126949e3c7660518
+    name: tls
+    urls:
+    - tls-1.0.0.tgz
+    version: 1.0.0
+generated: "2020-03-22T18:18:52.193982-04:00"

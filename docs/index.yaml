@@ -2,18 +2,18 @@ apiVersion: v1
 entries:
   micro-service:
   - apiVersion: v1
-    created: "2020-03-22T18:18:52.194454-04:00"
-    digest: a1f4f8f7cfeb567ddf075f4b969db04264ba6c33dad0e0720b7d8fa976fbd185
+    created: "2020-03-24T02:12:33.0587374Z"
+    digest: 61ed88a03dccaf290ed42025a8435526bc0455602c2e66a79aba8af26bc61e5e
     name: micro-service
     urls:
-    - micro-service-1.0.0.tgz
+    - https://github.com/the-watchmen/helm-charts/releases/download/micro-service-1.0.0/micro-service-1.0.0.tgz
     version: 1.0.0
   tls:
   - apiVersion: v1
-    created: "2020-03-22T18:18:52.194805-04:00"
-    digest: f48e88a179bb470fd67295e318dcc35d36b4105089f762b8126949e3c7660518
+    created: "2020-03-24T02:12:33.1563743Z"
+    digest: 4eb977eb2baf70d378594703054f9c0caae3a70c22bf03a34641935f932168dc
     name: tls
     urls:
-    - tls-1.0.0.tgz
+    - https://github.com/the-watchmen/helm-charts/releases/download/tls-1.0.0/tls-1.0.0.tgz
     version: 1.0.0
-generated: "2020-03-22T18:18:52.193982-04:00"
+generated: "2020-03-24T02:12:32.9021295Z"

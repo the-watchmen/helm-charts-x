@@ -12,6 +12,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: clean-releases-via-hub
+        shell: bash
+        run: |
+          curl -fsSL https://github.com/github/hub/raw/master/script/get | bash -s 2.14.1
+          bin/hub release | xargs bin/hub release delete
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       # https://github.com/helm/chart-releaser-action/issues/13#issuecomment-602063896
       #
       - name: Fetch history

@@ -1,0 +1,35 @@
+apiVersion: v1
+entries:
+  kubeconfig:
+  - apiVersion: v1
+    created: "2020-04-06T10:44:57.646038033Z"
+    digest: edb77c4b48dbfe5d3c3333d2f725d098ccf2c78529da5db632caa35206aa8dc5
+    name: kubeconfig
+    urls:
+    - https://github.com/the-watchmen/helm-charts/releases/download/kubeconfig-1.0.0/kubeconfig-1.0.0.tgz
+    version: 1.0.0
+  micro-service:
+  - apiVersion: v1
+    created: "2020-04-06T10:44:57.798656225Z"
+    digest: 297745c54cd5146399f1af9758cfad243ebd0677c00842e85afc2f772783f4b5
+    name: micro-service
+    urls:
+    - https://github.com/the-watchmen/helm-charts/releases/download/micro-service-1.0.0/micro-service-1.0.0.tgz
+    version: 1.0.0
+  pvc:
+  - apiVersion: v1
+    created: "2020-04-06T10:44:57.901054024Z"
+    digest: 4b1af8679ce03a4a8d2e6587fa0f0a9af19d09bf236c2bea7ba8324e5dc1ee97
+    name: pvc
+    urls:
+    - https://github.com/the-watchmen/helm-charts/releases/download/pvc-1.0.0/pvc-1.0.0.tgz
+    version: 1.0.0
+  tls:
+  - apiVersion: v1
+    created: "2020-04-06T10:44:57.998703595Z"
+    digest: f9f74415aeb5ebbcdda43f551e30399288bc35b3453592867ccd2b107d6f7e29
+    name: tls
+    urls:
+    - https://github.com/the-watchmen/helm-charts/releases/download/tls-1.0.0/tls-1.0.0.tgz
+    version: 1.0.0
+generated: "2020-04-06T10:44:57.451170794Z"

@@ -9,7 +9,7 @@ basic generic helm charts
 ```
 docker run \
   --rm \
-  -v /Users/tony/git-alt/helm-charts/build:/build \
+  -v /Users/tony/git/helm-charts/build:/build \
   -e CR_OWNER=the-watchmen \
   -e CR_GIT_REPO=helm-charts \
   -e CR_PACKAGE_PATH=./build \

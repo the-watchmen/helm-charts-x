@@ -10,3 +10,5 @@ resources:
     memory: 4096Mi
 ingress:
   enabled: false
+service:
+  enabled: true

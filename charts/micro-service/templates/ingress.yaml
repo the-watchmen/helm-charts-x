@@ -5,10 +5,9 @@ metadata:
   namespace: {{ template "namespace" . }}
   name: {{ template "name" . }}
   annotations:
-    # ingress.metadata.annotations?
-    {{- range $key, $value := .Values.ingress.annotations }}
-      {{ $key }}: {{ $value | quote }}
-    {{- end }}
+  {{- range $key, $value := .Values.ingress.annotations }}
+    {{ $key }}: {{ $value | quote }}
+  {{- end }}
 spec:
   rules:
     - host: {{ .Values.ingress.host }}

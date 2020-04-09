@@ -10,5 +10,7 @@ resources:
     memory: 4096Mi
 ingress:
   enabled: false
+  annotations:
+    kubernetes.io/ingress.class: internal
 service:
   enabled: true

@@ -32,4 +32,19 @@ entries:
     urls:
     - https://github.com/the-watchmen/helm-charts/releases/download/tls-1.0.0/tls-1.0.0.tgz
     version: 1.0.0
+  vault:
+  - apiVersion: v2
+    created: "2020-04-09T15:45:37.048220383Z"
+    description: Install and configure Vault on Kubernetes.
+    digest: 668f617cbce8437bff9db46a61252688b018ebb036530403cf5fd52d5bd4aa24
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    urls:
+    - https://github.com/the-watchmen/helm-charts/releases/download/vault-0.5.0/vault-0.5.0.tgz
+    version: 0.5.0
 generated: "2020-04-06T10:44:57.451170794Z"

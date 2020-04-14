@@ -1,5 +1,13 @@
 apiVersion: v1
 entries:
+  config-map:
+  - apiVersion: v1
+    created: "2020-04-14T08:10:59.113124069Z"
+    digest: c3c3616e721993df49ce75c160b8f93e1f0ea85e6a5ae9c21710b497187dcb5b
+    name: config-map
+    urls:
+    - https://github.com/the-watchmen/helm-charts/releases/download/config-map-1.0.0/config-map-1.0.0.tgz
+    version: 1.0.0
   kubeconfig:
   - apiVersion: v1
     created: "2020-04-06T10:44:57.646038033Z"

@@ -19,3 +19,12 @@ docker run \
   quay.io/helmpack/chart-releaser:v1.0.0-beta.1 \
   cr index
 ```
+
+### vault
+
+currently hashicorp does not publish vault helm chart, so cloning it out here to publish...
+
+```
+git clone --single-branch --branch v0.5.0 git@github.com:hashicorp/vault-helm.git charts/vault
+rm -rf charts/vault/.git
+```
